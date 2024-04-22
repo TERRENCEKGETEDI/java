@@ -1,0 +1,64 @@
+html{
+    background-image: url("/static/files/IMG-20240412-WA0066.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+form, p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+input[type="radio"]{
+    transform: scale(2.0);
+}
+label {
+    font-size: 1.2rem;
+}
+#submit{
+    padding: 10px 40px;
+    background-color: lightgreen;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: darkblue;
+    display: flex;
+    margin: auto;
+}
+h1{
+    font-size: 25px;
+}
+  /* Adjust layout for devices with a maximum width of 600px */
+@media only screen and (max-width: 600px) {
+    /* Styles for smaller screens */
+    label, form, p{
+        font-size: 20px;
+        text-align: left;
+    }
+    input[type="radio"]{
+        margin-left: auto;
+        transform: scale(1.0);
+    }
+    #submit{
+        padding: 5px 20px;
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 20px;
+    }
+  }/* Adjust layout for devices with a maximum width of 600px */
+@media only screen and (max-width: 350px) {
+    /* Styles for smaller screens */    
+    body{
+        width: 350px;
+    }
+    .bottom-buttons{
+        padding: 0px;
+        justify-content: center;
+    }
+    .bottom-buttons button{
+        padding: 8px;
+    }
+  }

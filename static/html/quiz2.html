@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZES</title>
+    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="stylesheet" href="/static/css/quiz1.css">
+</head>
+<body>
+    <div>
+        <h1>Multiple Choice Questions</h1><br>
+        <h1>Question 1:</h1><br>
+        <h1>Which one of the following statements will correctly determine the number of 250 ml bottles that
+            can be filled from a certain number of litres (the number of litres is stored in the variable rLitres).</h1>
+        <form id="question1Form" action="/submit" method="post">
+            <input type="radio" id="q1Option1" name="q1" value="A">
+            <label for="q1Option1">iNum250s = (int) (rLitres * 1000 / 250);</label><br>
+            <input type="radio" id="q1Option2" name="q1" value="B">
+            <label for="q1Option2">iNum250s = (int) (rLitres / 1000 * 250);</label><br>
+            <input type="radio" id="q1Option3" name="q1" value="C">
+            <label for="q1Option3">iNum250s = Math.floor( (rLitres * 1000 / 250));</label><br>
+            <input type="radio" id="q1Option4" name="q1" value="D">
+            <label for="q1Option4">iNum250s = Math.ceil( (rLitres * 1000 / 250));
+            </label><br>
+        </form>
+
+        <h1>Question 2:</h1><br>
+        <h1>Choose the best Java data type for a variable that will store the grade of a learners (1 – 12).</h1><br>
+        <form id="question2Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q2" value="A">
+            <label for="q2Option1">byte</label><br>
+            <input type="radio" id="q2Option2" name="q2" value="B">
+            <label for="q2Option2">short</label><br>
+            <input type="radio" id="q2Option3" name="q2" value="C">
+            <label for="q2Option3">int</label><br>
+            <input type="radio" id="q2Option4" name="q2" value="D">
+            <label for="q2Option4">long</label><br>
+        </form>
+
+        <h1>Question 3:</h1><br>
+        <h1>Choose the best Java data type for a variable that will store an integer value with more than 9
+            digits.</h1><br>
+        <form id="question3Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q3" value="A">
+            <label for="q2Option1">byte</label><br>
+            <input type="radio" id="q2Option2" name="q3" value="B">
+            <label for="q2Option2">short</label><br>
+            <input type="radio" id="q2Option3" name="q3" value="C">
+            <label for="q2Option3">int</label><br>
+            <input type="radio" id="q2Option4" name="q3" value="D">
+            <label for="q2Option4">long</label><br>
+        </form>
+
+        <h1>Question 4:</h1><br>
+        <h1>Choose the best Java data type for a variable that will store a value for scientific calculations of
+            very large numbers</h1><br>
+        <form id="question4Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q4" value="A">
+            <label for="q2Option1">float</label><br>
+            <input type="radio" id="q2Option2" name="q4" value="B">
+            <label for="q2Option2">double</label><br>
+            <input type="radio" id="q2Option3" name="q4" value="C">
+            <label for="q2Option3">real</label><br>
+            <input type="radio" id="q2Option4" name="q4" value="D">
+            <label for="q2Option4">decimal</label><br>
+        </form>
+
+        <h1>Question 5:</h1><br>
+        <h1>Which output will be produced by the following statement?
+            System.out.println("Sonia said \"Hello! \" to me.");</h1><br>
+        <form id="question5Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q5" value="A">
+            <label for="q2Option1">Sonia said "Hello! " to me.</label><br>
+            <input type="radio" id="q2Option2" name="q5" value="B">
+            <label for="q2Option2"> Sonia said "Hello!" to me.</label><br>
+            <input type="radio" id="q2Option3" name="q5" value="C">
+            <label for="q2Option3">Sonia said Hello! to me.</label><br>
+            <input type="radio" id="q2Option4" name="q5" value="D">
+            <label for="q2Option4">Sonia said "Hello"! to me.</label><br>
+        </form>
+        <button onclick="submitAnswers()" id="submit">Submit</button>
+    </div>
+    <br><br><br>
+    <br><br>
+    <div class="bottom-buttons">
+        <button onclick="home()">HOME</button>
+        <button onclick="quizzes()">QUIZZES</button>
+        <button onclick="documents()">DOCUMENTS</button>
+        <button onclick="notes()">NOTES</button>
+        <button onclick="videos()">VIDEOS</button>
+    </div>    
+    <script src="/static/js/quiz2.js"></script>
+</body>
+</html>

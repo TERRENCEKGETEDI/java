@@ -1,0 +1,66 @@
+h2{
+    font-size: 2rem;
+    margin-left: 1%;
+}
+p{
+    font-size: 20px;
+    margin-left: 2%;
+}
+.Algorithm{
+    background-color: rgba(210, 180, 140,0.2);
+    width: 80%;
+    /* min-width: 550px; */
+    margin: 1%;
+    border-radius: 30px;
+    padding: 1%;
+}
+.IPO{
+    margin-left: 1%;
+    width: 80%;
+    background-color: rgba(255, 255, 255,0.2);
+    border-radius: 30px;
+    padding: 1%;
+}
+table,th,td{
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 1%;
+}
+th{
+    width: 200px;
+}
+.javaStructure{
+    background-color: rgba(255, 255, 255,0.2);
+    width: 80%;
+    font-weight: bolder;
+    margin: 1%;
+    border-radius: 30px;
+    padding: 1%;
+}
+.javaStructure strong{
+    color: rgb(8, 78, 8);
+}
+.public{
+    background-color: rgba(255, 255, 0,0.2);
+    width: 80%;
+    margin: 1%;
+    border-radius: 30px;
+    padding: 1%;
+}
+.syntax{
+    background-color: rgba(0, 255, 0,0.2);
+    width: 80%;
+    margin: 1%;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+/* Adjust layout for devices with a maximum width of 600px */
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+    /* Styles for smaller screens */
+    .syntax, .public, .javaStructure, .Algorithm, .IPO{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+  }

@@ -1,0 +1,38 @@
+html{
+    background-image: url("/static/files/IMG-20240412-WA0061.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    background-image: linear-gradient(red, yellow);
+    padding: 1%;
+    width: 98%;
+    margin-bottom: 1%;
+}
+.DocumentsLinks div a:nth-child(odd){
+    text-decoration: none;
+    margin-top: 1%;
+    color: black;
+    font-size: 1.5rem;
+}
+.DocumentsLinks div button{
+    background-image: linear-gradient(cyan, gold);
+    border-radius: 10px;
+    padding: .1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1.5rem;
+    border: 2px solid black;
+}
+a:visited{
+    color: gray;
+}
+body div:nth-child(1){
+    height: fit-content;
+}
+.DocumentsLinks{
+    height: 100vh;
+    margin-left: 2%;
+}

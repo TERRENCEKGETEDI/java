@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZES</title>
+    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="stylesheet" href="/static/css/quiz1.css">
+</head>
+<body style="height: 150vh;">
+    <div>
+        <h1>Multiple Choice Questions</h1><br>
+        <h1>Question 1:</h1><br>
+        <h1>Correct code to compile java program</h1>
+        <form id="question1Form" action="/submit" method="post">
+            <input type="radio" id="q1Option1" name="q1" value="A">
+            <label for="q1Option1">java fileName</label><br>
+            <input type="radio" id="q1Option2" name="q1" value="B">
+            <label for="q1Option2">javac fileName</label><br>
+            <input type="radio" id="q1Option3" name="q1" value="C">
+            <label for="q1Option3">javac fileName.java</label><br>
+            <input type="radio" id="q1Option4" name="q1" value="D">
+            <label for="q1Option4">compile fileName.java</label><br>
+        </form>
+
+        <h1>Question 2:</h1><br>
+        <h1>Code to run java program</h1><br>
+        <form id="question2Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q2" value="A">
+            <label for="q2Option1">java fileName.java</label><br>
+            <input type="radio" id="q2Option2" name="q2" value="B">
+            <label for="q2Option2">javac fileName</label><br>
+            <input type="radio" id="q2Option3" name="q2" value="C">
+            <label for="q2Option3">fileName java</label><br>
+            <input type="radio" id="q2Option4" name="q2" value="D">
+            <label for="q2Option4">java fileName</label><br>
+        </form>
+
+        <h1>Question 3:</h1><br>
+        <h1>Choose the Correct java statement</h1><br>
+        <form id="question3Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q3" value="A">
+            <label for="q2Option1">system.out.println("Hello world");</label><br>
+            <input type="radio" id="q2Option2" name="q3" value="B">
+            <label for="q2Option2">System.out.println("Hello world")</label><br>
+            <input type="radio" id="q2Option3" name="q3" value="C">
+            <label for="q2Option3">System.uot.println("Hello world");</label><br>
+            <input type="radio" id="q2Option4" name="q3" value="D">
+            <label for="q2Option4">System.out.println("Hello world");</label><br>
+        </form>
+
+        <h1>Question 4:</h1><br>
+        <h1>choose the Correct data type for variable age</h1><br>
+        <form id="question4Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q4" value="A">
+            <label for="q2Option1">double</label><br>
+            <input type="radio" id="q2Option2" name="q4" value="B">
+            <label for="q2Option2">String</label><br>
+            <input type="radio" id="q2Option3" name="q4" value="C">
+            <label for="q2Option3">Integer</label><br>
+            <input type="radio" id="q2Option4" name="q4" value="D">
+            <label for="q2Option4">int</label><br>
+        </form>
+
+        <h1>Question 5:</h1><br>
+        <h1>choose a well declared variable</h1><br>
+        <form id="question5Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q5" value="A">
+            <label for="q2Option1">Int age;</label><br>
+            <input type="radio" id="q2Option2" name="q5" value="B">
+            <label for="q2Option2">double numberOfstudents</label><br>
+            <input type="radio" id="q2Option3" name="q5" value="C">
+            <label for="q2Option3">double height;</label><br>
+            <input type="radio" id="q2Option4" name="q5" value="D">
+            <label for="q2Option4">char name;</label><br>
+        </form>
+        <button onclick="submitAnswers()" id="submit">Submit</button>
+    </div>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <div class="bottom-buttons">
+        <button onclick="home()">HOME</button>
+        <button onclick="quizzes()">QUIZZES</button>
+        <button onclick="documents()">DOCUMENTS</button>
+        <button onclick="notes()">NOTES</button>
+        <button onclick="videos()">VIDEOS</button>
+    </div>    
+    <script src="/static/js/quiz1.js"></script>
+</body>
+</html>

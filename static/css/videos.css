@@ -1,0 +1,12 @@
+html{
+    background-image: url("/static/files/IMG-20240412-WA0070.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 3rem;
+    color: aqua;
+    text-align: center;
+}

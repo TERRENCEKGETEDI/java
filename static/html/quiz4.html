@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZES</title>
+    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="stylesheet" href="/static/css/quiz1.css">
+</head>
+<body>
+    <div>
+        <h1>Multiple Choice Questions</h1><br>
+        <h1>Question 1:</h1><br>
+        <h1>Choose the equivalent code statements for the following:
+            rFinal = rFinal * 0.8;</h1>
+        <form id="question1Form" action="/submit" method="post">
+            <input type="radio" id="q1Option1" name="q1" value="A">
+            <label for="q1Option1">rFinal = rFinal - rFinal * 0.2;</label><br>
+            <input type="radio" id="q1Option2" name="q1" value="B">
+            <label for="q1Option2">rFinal *= 0.8;</label><br>
+            <input type="radio" id="q1Option3" name="q1" value="C">
+            <label for="q1Option3">rFinal =* 0.8;</label><br>
+            <input type="radio" id="q1Option4" name="q1" value="D">
+            <label for="q1Option4">rFinal -= rFinal * 0.2;</label><br>
+        </form>
+
+        <h1>Question 2:</h1><br>
+        <h1>Choose the best Java data type for a variable that will store the class group of a learner (‘A’, ‘B’, …).</h1><br>
+        <form id="question2Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q2" value="A">
+            A<label for="q2Option1">char</label><br>
+            <input type="radio" id="q2Option2" name="q2" value="B">
+            <label for="q2Option2">boolean</label><br>
+            <input type="radio" id="q2Option3" name="q2" value="C">
+            <label for="q2Option3">int</label><br>
+            <input type="radio" id="q2Option4" name="q2" value="D">
+            <label for="q2Option4">double</label><br>
+        </form>
+
+        <h1>Question 3:</h1><br>
+        <h1>Choose the best Java data type for a variable that will store the number of students in your
+            PPAF05D class group. Assume that your class group has less than 50 students.</h1><br>
+        <form id="question3Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q3" value="A">
+            <label for="q2Option1">long</label><br>
+            <input type="radio" id="q2Option2" name="q3" value="B">
+            <label for="q2Option2">int</label><br>
+            <input type="radio" id="q2Option3" name="q3" value="C">
+            <label for="q2Option3">short;</label><br>
+            <input type="radio" id="q2Option4" name="q3" value="D">
+            D<label for="q2Option4">byte</label><br>
+        </form>
+
+        <h1>Question 4:</h1><br>
+        <h1>Which one of the following Java Boolean expressions is suitable to determine whether all the marks
+            entered are 75% or more?</h1><br>
+        <form id="question4Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q4" value="A">
+            A<label for="q2Option1">(rMark 1 > 75 && rMark2 > 75 && rMark3 > 75)</label><br>
+            <input type="radio" id="q2Option2" name="q4" value="B">
+            <label for="q2Option2">(rMark 1 >= 75 && rMark2 >= 75 && rMark3 >= 75)</label><br>
+            <input type="radio" id="q2Option3" name="q4" value="C">
+            <label for="q2Option3"> (rMark 1 > 75 || rMark2 > 75 || rMark3 > 75)</label><br>
+            <input type="radio" id="q2Option4" name="q4" value="D">
+            <label for="q2Option4">(rMark 1 >= 75 || rMark2 >= 75 || rMark3 >= 75)</label><br>
+        </form>
+
+        <h1>Question 5:</h1><br>
+        <h1>People can enter the mall if they are older than 5 and younger than 60 years, and either have a
+            temperature reading of at least 30, but not more than 37.
+            Which Java Boolean expressions will correctly determine whether a person can enter the mall?</h1><br>
+        <form id="question5Form" action="/submit" method="post">
+            <input type="radio" id="q2Option1" name="q5" value="A">
+            <label for="q2Option1">((iAge > 5 || iAge < 60) || (rTemp >= 30 || rTemp < 37))</label><br>
+            <input type="radio" id="q2Option2" name="q5" value="B">
+            <label for="q2Option2">((iAge > 5 || iAge < 60) && (rTemp >= 30 || rTemp < 37))</label><br>
+            <input type="radio" id="q2Option3" name="q5" value="C">
+            <label for="q2Option3">((iAge > 5 && iAge < 60) || (rTemp >= 30 && rTemp < 37))</label><br>
+            <input type="radio" id="q2Option4" name="q5" value="D">
+            D<label for="q2Option4"> ((iAge > 5 && iAge < 60) && (rTemp >= 30 && rTemp < 37))</label><br>
+        </form>
+        <br><br>
+        <button onclick="submitAnswers()" id="submit">Submit</button>
+    </div>
+    <br><br><br><br>
+    <br><br><br><br><br>
+    <div class="bottom-buttons">
+        <button onclick="home()">HOME</button>
+        <button onclick="quizzes()">QUIZZES</button>
+        <button onclick="documents()">DOCUMENTS</button>
+        <button onclick="notes()">NOTES</button>
+        <button onclick="videos()">VIDEOS</button>
+    </div>    
+    <script src="/static/js/quiz4.js"></script>
+</body>
+</html>
